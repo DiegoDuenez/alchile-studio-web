@@ -1,0 +1,121 @@
+/*
+|   css-responsive-settings 2022 @DiegoDuenez
+|   ---------------------------------------------------------------------------------
+|   @Root
+|   ---------------------------------------------------------------------------------
+|
+*/
+
+
+:root{
+
+    --amarillo_100: #d9d5c3;
+    --amarillo_700: #b08f3b;
+    --negro: #0a0a0a;
+    --blanco: #ffffff;
+    --ff-bold: GibsonBold;
+    --ff-regular: GibsonRegular;
+    --fs-titulos: 4rem;
+    --ft-textos: 1.2rem;
+
+}
+
+
+/*
+|   ---------------------------------------------------------------------------------
+|   All
+|   ---------------------------------------------------------------------------------
+|   
+|   Add margin, padding in 0 with box-sizing in border-box.
+|
+*/
+* {
+    margin: 0;
+    padding: 0;
+        -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+        -webkit-padding-start: 0px;
+    font-family: var(--ff-regular);
+}
+
+p{
+    line-height: 1.5rem;
+}
+
+
+
+/*
+|   ---------------------------------------------------------------------------------
+|   Html & body
+|   ---------------------------------------------------------------------------------
+|   
+|   Add margin, padding in 0 with width and height in 100%, with this you can use height of 100% in your containers.
+|
+*/
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-size: 16px;
+}
+
+
+
+/*
+|   ---------------------------------------------------------------------------------
+|   Html (Not obligatory)
+|   ---------------------------------------------------------------------------------
+|   
+|   Scroll smooth & friendly :)
+|
+*/
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+/*
+|   ---------------------------------------------------------------------------------
+|   Body
+|   ---------------------------------------------------------------------------------
+|   
+|   Body with position relative and overflow-x hidden for responsive mode and does not allow horizontal side scrolling.
+|
+*/
+body{
+    position: relative;
+    overflow-x: hidden !important;
+    background-color: var(--negro);
+}
+
+
+
+/*
+|   ---------------------------------------------------------------------------------
+|   Body > div
+|   ---------------------------------------------------------------------------------
+|   
+|   All div tags inside the body do not allow horizontal side scrolling.
+|
+*/
+body>div {
+    overflow: hidden !important;
+}
+
+
+
+/*
+|   ---------------------------------------------------------------------------------
+|   Body > section
+|   ---------------------------------------------------------------------------------
+|   
+|   All section tags inside the body do not allow horizontal side scrolling.
+|
+*/
+body>section {
+    overflow: hidden !important;
+}

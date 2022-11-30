@@ -1,0 +1,51 @@
+/*
+|   ---------------------------------------------------------------------------------
+|   @Components (Dots)
+|   ---------------------------------------------------------------------------------
+|   
+*/
+
+
+.dots{
+    display: flex;
+    position: fixed;
+    width: max-content;
+    height: max-content;
+    right: 0;
+    top: 45%;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    right: 3rem;
+    z-index: 9999;
+    transition: width 400ms;
+}
+
+.dots__dot{
+    cursor: pointer;
+}
+
+.dots__dot-outer{
+    min-width: 1.3rem;
+    min-height: 1.3rem;
+    width: max-content;
+    height: max-content;
+    border: 1px solid var(--blanco);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.dots__dot-inner{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: var(--blanco);
+    transition: .4s;
+
+}
+

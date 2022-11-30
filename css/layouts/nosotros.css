@@ -1,0 +1,98 @@
+/*
+|   ---------------------------------------------------------------------------------
+|   @Layouts (Nosotros)
+|   ---------------------------------------------------------------------------------
+|
+*/
+
+
+.nosotros{
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: max-content;
+    gap: 2rem;
+    padding: 2rem;
+    align-items: center;
+}
+
+.nosotros__text{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+    align-items: center;
+    /* padding: 0 30rem; */
+    text-align: center;
+    color: var(--amarillo_100);
+    font-size: var(--fs-textos);
+}
+
+
+.nosotros__text p{
+    width: 50rem;
+    line-height: 2rem;
+
+}
+
+.nosotros__text p span{
+    color: var(--amarillo_700);
+}
+
+.nosotros__servicios{
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0 5rem;
+    margin-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+
+.nosotros__servicio{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--amarillo_100);
+    width: 18rem;
+    /* height: 25rem; */
+    min-height: 25rem;
+    height: max-content;
+    background-color: var(--negro);
+}
+
+
+.nosotros__servicio-header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 10rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nosotros__servicio-icon{
+    /* width: 5rem; */
+    font-size: 3rem;
+    color: var(--amarillo_700);
+}
+
+.nosotros__servicio-title{
+    color: var(--amarillo_700);
+}
+
+.nosotros__servicio-body{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: var(--amarillo_100);
+    width: 100%;
+    text-align: center;
+    padding: 0 2rem;
+}

@@ -40,10 +40,12 @@ window.onscroll = function() {
         // `)
         clearDots($('#dot-inicio'))
     }
-    else if(currentScrollPos >= $('#nosotros').position().top ){
+    else if(currentScrollPos >= $('#nosotros').position().top && currentScrollPos < $('#portafolio').position().top ){
         clearDots($('#dot-nosotros'))
     }
-  
+    else if(currentScrollPos >= $('#portafolio').position().top ){
+        clearDots($('#dot-portafolio'))
+    }
 }
 
 

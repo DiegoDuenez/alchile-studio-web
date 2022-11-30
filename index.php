@@ -12,10 +12,12 @@
 
     <?php include 'templates/components/dots.html'; ?>
 
-
     <?php include 'templates/layouts/inicio.html'; ?>
 
     <?php include 'templates/layouts/nosotros.html'; ?>
+
+    <?php include 'templates/layouts/portafolio.html'; ?>
+
 
 
 <!-- 

@@ -41,5 +41,9 @@
     font-size: var(--fs-textos);
     text-decoration: none;
     letter-spacing: 0.1rem;
-    
+    transition: 400ms;
+}
+
+.nav__link:hover{
+    color: var(--blanco);
 }

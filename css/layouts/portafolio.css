@@ -9,8 +9,7 @@
 .portafolio{
     position: relative;
     width: 100%;
-    min-height: 100%;
-    overflow: hidden;
+    height: max-content;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -47,19 +46,17 @@
 }
 
 .portafolio__container{
-    width: 100%;
     border-top: 3px solid var(--gris);
-    height: 30rem;
     display: flex;
+    width: 100%;
 }
 
 .portafolio__categories{
     display: flex;
     flex-direction: column;
     width: 20rem;
-    height: 100%;
     border-right: 3px solid var(--gris);
-
+    padding-bottom: 1rem;
 }
 
 .portafolio__categories-header{
@@ -99,5 +96,117 @@
 
 
 .portafolio__categories--active{
+    color: var(--blanco);
+}
+
+.portafolio__proyectos{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 2rem 4rem;
+    padding-right: 0;
+}
+
+.portafolio__proyecto{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.portafolio__proyecto-header{
+    display: flex;
+    width: 100%;
+    font-size: 1.5rem;
+    height: max-content;
+    color: var(--amarillo_100);
+}
+
+
+.portafolio__proyecto-title{
+    display: flex;
+    width: 50% ;
+    height: 100%;
+    padding: 1rem 0;
+    border-bottom: 3px solid var(--amarillo_700); 
+}
+
+.portafolio__proyecto-border{
+    border-bottom: 3px solid var(--gris);
+    width: 100%;
+}
+
+.portafolio__proyecto-body{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.portafolio__proyecto-img{
+    width: 40%;
+    height: 100%;
+}
+
+.portafolio__proyecto-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.portafolio__proyecto-descripcion{
+    display: flex;
+    width: 30%;
+    text-align: center;
+    border-right: 3px solid var(--gris);
+    padding: 2rem 1.5rem;
+    color: var(--amarillo_100);
+    line-height: 1.5rem;
+}
+
+.portafolio__proyecto-info{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: space-between;
+
+}
+
+.portafolio__proyecto-logo{
+    display: flex;
+    width: 100%;
+    height: 10rem;
+    padding-top: 1rem;
+}
+
+.portafolio__proyecto-logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.portafolio__proyecto-lista{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+.portafolio__proyecto-lista ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    font-size: var(--fs-textos);
+    color: var(--amarillo_100);
+}
+
+.portafolio__proyecto-lista ul li{
+    list-style: none;
+    transition: 400ms;
+}
+
+
+.portafolio__proyecto-lista ul li:hover{
     color: var(--blanco);
 }

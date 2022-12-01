@@ -18,6 +18,7 @@
 
     <?php include 'templates/layouts/portafolio.html'; ?>
 
+    <?php include 'templates/layouts/video.html'; ?>
 
 
 <!-- 

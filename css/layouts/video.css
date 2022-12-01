@@ -1,0 +1,20 @@
+/*
+|   ---------------------------------------------------------------------------------
+|   @Layouts (Video)
+|   ---------------------------------------------------------------------------------
+|
+*/
+
+
+.video{
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: max-content;
+    gap: 2rem;
+    padding: 2rem 10rem;
+    background-color: var(--gris);
+}

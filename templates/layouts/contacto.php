@@ -4,7 +4,7 @@
 
         
         <div class="contacto__info-container">
-            <p class="contacto__info-title">Nuestro Equipo está en </p>
+            <p class="contacto__info-title">Nuestro equipo está en </p>
             <p class="contacto__info-text">Torreón, <b>Coahuila</b> </p>
         </div>
        

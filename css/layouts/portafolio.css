@@ -211,8 +211,8 @@
     display: none;
     flex-direction: column;
     position: fixed;
-    top: 2.9rem;
-    left: 14.5rem;
+    top: 5rem;
+    left: 14.8rem;
     z-index: 999;
 }
 

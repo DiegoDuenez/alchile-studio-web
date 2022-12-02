@@ -15,6 +15,7 @@
 *   @Animations
 *   ---------------------------------------------------------------------------------
 */
+@import url('animations/animations.css');
 @import url('animations/animate.css');
 
 
@@ -37,7 +38,8 @@
 @import url('components/nav.css');
 @import url('components/button.css');
 @import url('components/dots.css');
-
+@import url('components/menu.css');
+@import url('components/background.css');
 
 
 /*
@@ -49,5 +51,7 @@
 @import url('layouts/nosotros.css');
 @import url('layouts/portafolio.css');
 @import url('layouts/video.css');
+@import url('layouts/contacto.css');
+
 
 

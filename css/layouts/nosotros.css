@@ -7,10 +7,8 @@
 
 
 .nosotros{
-    position: relative;
     width: 100%;
     min-height: 100%;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,12 +29,16 @@
     font-size: var(--fs-textos);
 }
 
-
 .nosotros__text p{
     width: 50rem;
     line-height: 2rem;
-
 }
+
+    @media screen and (min-width: 300px) and (max-width: 900px) {
+        .nosotros__text p{
+            width: 100%;
+        }
+    } 
 
 .nosotros__text p span{
     color: var(--amarillo_700);
@@ -53,6 +55,24 @@
     padding-bottom: 3rem;
 }
 
+    @media screen and (min-width: 865px) and (max-width: 1030px) {
+        .nosotros__servicios{
+            padding: 0 1rem;
+        }
+    } 
+    @media screen and (min-width: 601px) and (max-width: 864px) {
+        .nosotros__servicios{
+            padding: 0 ;
+        }
+    } 
+
+    @media screen and (min-width: 300px) and (max-width: 600px) {
+        .nosotros__servicios{
+            width: 100%;
+            padding: 0 1rem;
+        }
+    } 
+
 
 .nosotros__servicio{
     display: flex;
@@ -65,6 +85,12 @@
     background-color: var(--negro);
     padding: 1rem;
 }
+
+    @media screen and (min-width: 300px) and (max-width: 600px) {
+        .nosotros__servicio{
+            width: 100%;
+        }
+    } 
 
 
 .nosotros__servicio-header{

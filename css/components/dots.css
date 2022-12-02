@@ -23,6 +23,12 @@
     transition: width 400ms;
 }
 
+    @media screen and (min-width: 300px) and (max-width: 840px) {
+        .dots{
+            display: none;
+        }
+    }
+
 .dots__dot{
     cursor: pointer;
 }

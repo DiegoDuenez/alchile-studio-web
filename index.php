@@ -8,6 +8,8 @@
 <body>
 
 
+    <?php include 'templates/components/menu.html'; ?>
+
     <?php include 'templates/components/nav.html'; ?>
 
     <?php include 'templates/components/dots.html'; ?>
@@ -16,10 +18,15 @@
 
     <?php include 'templates/layouts/nosotros.html'; ?>
 
-    <?php include 'templates/layouts/portafolio.html'; ?>
+    <?php $portafolio = include 'config/portafolio.php'; ?>
+    <?php include 'templates/layouts/portafolio.php'; ?>
 
     <?php include 'templates/layouts/video.html'; ?>
 
+    <?php include 'templates/layouts/contacto.php'; ?>
+
+
+    
 
 <!-- 
 <svg id="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0" y="0" width="400" height="300" viewBox="-100 320 400 300">

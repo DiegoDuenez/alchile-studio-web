@@ -18,6 +18,7 @@
     padding: 7rem 2rem;
     padding-bottom: 2rem;
     align-items: center;
+
 }
 
 
@@ -29,9 +30,11 @@
     display: flex;
     flex-direction: column;
 }
+   
 
 .inicio__title--amarillo{
     color: var(--amarillo_700);
+    
 }
 
 .inicio__title span{
@@ -39,5 +42,24 @@
     padding: 0;
     margin: 0;
     font-weight: bold;
-}
 
+}
+    @media screen and (min-width: 651px) and (max-width: 900px) {
+        .inicio__title span{
+            font-size: 6rem;
+        }
+    }  
+    @media screen and (min-width: 300px) and (max-width: 650px) {
+        .inicio__title span{
+            font-size: 4rem;
+        }
+    }   
+
+
+
+
+/* @keyframes animated_text {
+	0% { background-position: 0px 50%;  }
+	50% { background-position: 100% 50%; text-shadow: 0 0 40px  #d9d5c3 }
+	100% { background-position: 0px 50%;  }
+} */

@@ -1,0 +1,217 @@
+/*
+|   ---------------------------------------------------------------------------------
+|   @Layouts (Contacto)
+|   ---------------------------------------------------------------------------------
+|
+*/
+
+
+
+.contacto{
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    height: max-content;
+}
+
+
+.contacto__info{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 4rem 5rem;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+    @media screen and (min-width: 771px) and (max-width: 1000px) {
+        .contacto__info{
+            width: 70%;
+        }
+    }
+    @media screen and (min-width: 300px) and (max-width: 770px) {
+        .contacto__info{
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+        }
+    }
+
+
+.contacto__info-container{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+    width: max-content;
+    gap: 1rem;
+}
+
+    @media screen and (min-width: 501px) and (max-width: 770px) {
+        .contacto__info-container{
+            align-items: center;
+        }
+    }
+
+    @media screen and (min-width: 300px) and (max-width: 500px) {
+        .contacto__info-container{
+            width: 100%;
+            align-items: center;
+
+        }
+    }
+
+.contacto__info-title{
+    color: var(--amarillo_100);
+    font-size: 1.2rem;
+}
+    @media screen and (min-width: 300px) and (max-width: 500px) {
+        .contacto__info-title{
+            font-size: 1rem;
+        }
+    }
+
+.contacto__info-text{
+    color: var(--amarillo_700);
+    font-size: 2rem;
+    text-decoration: none;
+}
+    @media screen and (min-width: 300px) and (max-width: 500px) {
+        .contacto__info-text{
+            font-size: 1rem;
+        }
+    }
+
+
+.contacto__info-links{
+    display: flex;
+    width: max-content;
+    gap: 1rem;
+}
+    @media screen and (min-width: 300px) and (max-width: 770px) {
+        .contacto__info-links{
+            width: 100%;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+    }
+
+.contacto__info-links a{
+    text-decoration: none;
+    color: var(--amarillo_100);
+    font-size: 1.2rem;
+}
+
+    @media screen and (min-width: 300px) and (max-width: 500px) {
+        .contacto__info-links a{
+            font-size: 1rem;
+        }
+    }
+
+.contacto__go-up{
+    display: flex;
+    color: var(--amarillo_100);
+    gap: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+@media screen and (min-width: 300px) and (max-width: 770px) {
+    .contacto__go-up{
+        flex-direction: column;
+        font-size: 1rem;
+    }
+}
+
+
+.contacto__go-up i{
+    color: var(--amarillo_700);
+    transition: 400ms;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: bounce-2;
+    animation-timing-function: ease;
+}
+
+@media screen and (min-width: 300px) and (max-width: 770px) {
+    .contacto__go-up i{
+        font-size: 2rem;
+    }
+}
+
+.contacto__background-image{
+    background-image: url('../../resources/img/bg-contacto.png');
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    width: 50%;
+}
+
+    @media screen and (min-width: 771px) and (max-width: 1000px) {
+        .contacto__background-image{
+            width: 30%;
+            background-position: center;
+        }
+    }
+    @media screen and (min-width: 300px) and (max-width: 770px) {
+        .contacto__background-image{
+            display: none;
+        }
+    }
+
+
+.contacto__circle-image{
+    position: absolute;
+    width: 15rem;
+    height: 15rem;
+    top: 15%;
+    left: 42%;
+}
+
+    @media screen and (min-width: 771px) and (max-width: 1000px) {
+        .contacto__circle-image{
+            position: absolute;
+            left: 58%;
+        }
+    }
+    @media screen and (min-width: 300px) and (max-width: 770px) {
+        .contacto__circle-image{
+            display: none;
+        }
+    }
+
+
+
+.contacto__circle-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: absolute;
+
+}
+
+.rotating{
+    -webkit-animation: rotating 10s linear infinite;
+    -moz-animation: rotating 10s linear infinite;
+    -ms-animation: rotating 10s linear infinite;
+    -o-animation: rotating 10s linear infinite;
+    animation: rotating 10s linear infinite;
+}
+
+@keyframes rotating {
+    from {
+      -ms-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -ms-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  

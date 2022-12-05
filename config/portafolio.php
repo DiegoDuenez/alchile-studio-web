@@ -41,7 +41,7 @@ return [
 
             'img' => 'resources/img/acuario-imagen.png',
     
-            'imgAlt' => 'CLA',
+            'imgAlt' => 'Acuario',
     
             'descripcion' => '
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia excepturi 
@@ -72,7 +72,7 @@ return [
 
             'img' => 'resources/img/sindicato-imagen.png',
     
-            'imgAlt' => 'CLA',
+            'imgAlt' => 'Sindicato',
     
             'descripcion' => '
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia excepturi 
@@ -99,7 +99,7 @@ return [
 
             'img' => 'resources/img/tuti-frutti-imagen.png',
     
-            'imgAlt' => 'CLA',
+            'imgAlt' => 'Tutti Frutti',
     
             'descripcion' => '
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia excepturi 
@@ -124,7 +124,7 @@ return [
 
             'img' => 'resources/img/apromsa-imagen.png',
     
-            'imgAlt' => 'CLA',
+            'imgAlt' => 'Apromsa',
     
             'descripcion' => '
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia excepturi 
@@ -153,7 +153,7 @@ return [
 
             'img' => 'resources/img/black-wolf-imagen.png',
     
-            'imgAlt' => 'CLA',
+            'imgAlt' => 'Black Wolf',
     
             'descripcion' => '
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia excepturi 
@@ -176,33 +176,33 @@ return [
             
         ],
 
-        'AW Software' => [
+        // 'AW Software' => [
 
-            'img' => 'resources/img/aw-imagen.png',
+        //     'img' => 'resources/img/aw-imagen.png',
     
-            'imgAlt' => 'CLA',
+        //     'imgAlt' => 'CLA',
     
-            'descripcion' => '
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia excepturi 
-                architecto non optio quod porro sapiente, atque, reprehenderit, quidem quis soluta at! 
-                Velit voluptatum qui eveniet inventore necessitatibus placeat aliquid?
-            ',
+        //     'descripcion' => '
+        //         Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia excepturi 
+        //         architecto non optio quod porro sapiente, atque, reprehenderit, quidem quis soluta at! 
+        //         Velit voluptatum qui eveniet inventore necessitatibus placeat aliquid?
+        //     ',
     
-            'imgLogo' => 'resources/img/aw-logo.png',
+        //     'imgLogo' => 'resources/img/aw-logo.png',
     
-            'listaServicios' => [
-                'Social Media',
-                'Fotografía',
-                'Video',
-                'Rotulación',
-                'Diseño Web'
-            ],
+        //     'listaServicios' => [
+        //         'Social Media',
+        //         'Fotografía',
+        //         'Video',
+        //         'Rotulación',
+        //         'Diseño Web'
+        //     ],
     
-            'imgSize' => 'portafolio__proyecto-logo portafolio__proyecto-logo--md',
+        //     'imgSize' => 'portafolio__proyecto-logo portafolio__proyecto-logo--md',
 
-            'id' => 'aw'
+        //     'id' => 'aw'
             
-        ],
+        // ],
 
 
 

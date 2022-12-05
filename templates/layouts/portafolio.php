@@ -3,12 +3,12 @@
 <div class="portafolio__categories-list-outside">
 
     <ul>
-        <li>Branding</li>
-        <li>Fotografía</li>
-        <li>Video</li>
-        <li>Diseño Gráfico</li>
-        <li>MKT</li>
-        <li>Social Media</li>
+        <li id="branding" class="portafolio__categories-item">Branding</li>
+        <li id="fotografia" class="portafolio__categories-item">Fotografía</li>
+        <li id="video" class="portafolio__categories-item">Video</li>
+        <li id="diseño grafico" class="portafolio__categories-item">Diseño Gráfico</li>
+        <li id="mkt" class="portafolio__categories-item">MKT</li>
+        <li id="social media" class="portafolio__categories-item">Social Media</li>
     </ul>
 
 </div>
@@ -36,12 +36,12 @@
             <section class="portafolio__categories-list" id="portafolio-list">
 
                 <ul>
-                    <li>Branding</li>
-                    <li>Fotografía</li>
-                    <li>Video</li>
-                    <li>Diseño Gráfico</li>
-                    <li>MKT</li>
-                    <li>Social Media</li>
+                    <li id="branding" class="portafolio__categories-item">Branding</li>
+                    <li id="fotografia" class="portafolio__categories-item">Fotografía</li>
+                    <li id="video" class="portafolio__categories-item">Video</li>
+                    <li id="diseño grafico" class="portafolio__categories-item">Diseño Gráfico</li>
+                    <li id="mkt" class="portafolio__categories-item">MKT</li>
+                    <li id="social media" class="portafolio__categories-item">Social Media</li>
                 </ul>
                 
             </section>
@@ -50,12 +50,12 @@
 
         
 
-        <div class="portafolio__proyectos">
+        <div class="portafolio__proyectos" id="proyectos">
 
 
             <?php foreach($portafolio['portafolio'] as $proyecto => $cliente): ?>
 
-            <div class="portafolio__proyecto" data-aos="fade-left">
+            <div class="portafolio__proyecto" data-aos="fade-left" id="<?php echo $cliente['id']; ?>">
 
                 <div class="portafolio__proyecto-header">
                    <div class="portafolio__proyecto-title">  <?php echo $proyecto ?></div> 

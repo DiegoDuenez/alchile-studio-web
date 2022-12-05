@@ -29,7 +29,9 @@ return [
                 'Diseño Editorial'
             ],
     
-            'imgSize' => 'portafolio__proyecto-logo'
+            'imgSize' => 'portafolio__proyecto-logo',
+            
+            'id' => 'cla'
     
             
         ],
@@ -58,7 +60,9 @@ return [
                 'Diseño Editorial'
             ],
     
-            'imgSize' => 'portafolio__proyecto-logo portafolio__proyecto-logo--md'
+            'imgSize' => 'portafolio__proyecto-logo portafolio__proyecto-logo--md',
+
+            'id' => 'acuario'
     
             
         ],
@@ -85,7 +89,9 @@ return [
                 'Publicidad Exterior',
             ],
     
-            'imgSize' => 'portafolio__proyecto-logo '
+            'imgSize' => 'portafolio__proyecto-logo ',
+
+            'id' => 'sindicato'
             
         ],
 
@@ -108,7 +114,9 @@ return [
                 'Rotulación de Interior',
             ],
     
-            'imgSize' => 'portafolio__proyecto-logo portafolio__proyecto-logo--md '
+            'imgSize' => 'portafolio__proyecto-logo portafolio__proyecto-logo--md ',
+
+            'id' => 'tutti'
             
         ],
 
@@ -135,7 +143,9 @@ return [
                 'Diseño Web'
             ],
     
-            'imgSize' => 'portafolio__proyecto-logo '
+            'imgSize' => 'portafolio__proyecto-logo ',
+
+            'id' => 'apromsa'
             
         ],
 
@@ -160,7 +170,9 @@ return [
                 'Diseño Web'
             ],
     
-            'imgSize' => 'portafolio__proyecto-logo '
+            'imgSize' => 'portafolio__proyecto-logo ',
+
+            'id' => 'blackwolf'
             
         ],
 
@@ -186,7 +198,9 @@ return [
                 'Diseño Web'
             ],
     
-            'imgSize' => 'portafolio__proyecto-logo portafolio__proyecto-logo--md'
+            'imgSize' => 'portafolio__proyecto-logo portafolio__proyecto-logo--md',
+
+            'id' => 'aw'
             
         ],
 

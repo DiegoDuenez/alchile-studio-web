@@ -101,6 +101,14 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    position: relative;
+}
+
+.nosotros__servicio-header img{
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: bounce-2;
+    animation-timing-function: ease;
 }
 
 .nosotros__servicio-icon{

@@ -9,8 +9,10 @@ window.onscroll = function() {
 
         if (prevScrollpos > currentScrollPos) {
             $('.nav').css('top', '0').css('height', '4rem')
+            $('.nav').css('background-color', 'var(--negro)')
         } else {
             $('.nav').css('top', '-150px')
+            $('.nav').css('background-color', 'var(--negro)')
 
         }
 
@@ -18,6 +20,8 @@ window.onscroll = function() {
     }
     else{
         $('.nav').css('height', '8rem')
+        $('.nav').css('background-color', 'transparent')
+
     }
    
 

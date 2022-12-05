@@ -2,20 +2,33 @@
 <!-- Generator: Adobe Illustrator 26.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 10754.7 9590.19" style="enable-background:new 0 0 10754.7 9590.19;" xml:space="preserve">
+
 <style type="text/css">
 	.st0{display:none;}
 	.st1{display:inline;}
 	
 		.st2{clip-path:url(#SVGID_00000091016899630920723980000018378845463656675980_);fill:url(#SVGID_00000135659069479707090010000005644787629884384668_);}
 	.st3{display:inline;fill-rule:evenodd;clip-rule:evenodd;fill:#1D1D1B;}
-	.st4{display:inline;fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st4{display:inline;fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#ffffff;}
 	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
+
+	.st5{fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#FFFFFF;
+		stroke-miterlimit:10;
+	 	<!-- stroke-dasharray: 1000;
+  		stroke-dashoffset: 1000; -->
+        <!-- animation:trap_stroke 2s ease-in-out forwards; -->
+
+	}
+
+	
+
+	
 </style>
 <g id="Layer_1" class="st0">
 	<g class="st1">
 		<g>
 			<defs>
-				<path id="SVGID_1_" d="M5879.39,4948.58l-11.84,3.36l-12.67,5.48l11.57-3.87L5879.39,4948.58z M5908.83,4937.27l-15.88,3.68
+				<path id="SVGID_1_"  d="M5879.39,4948.58l-11.84,3.36l-12.67,5.48l11.57-3.87L5879.39,4948.58z M5908.83,4937.27l-15.88,3.68
 					l-17.14,7.42c5.29-1.5,10.57-3,15.85-4.5L5908.83,4937.27z M5929.24,4932.55l-12.1,2.8l-12.88,4.94l11.9-3.37L5929.24,4932.55z
 					 M5942.07,4929.58l-0.68,0.16l-0.71,0.24L5942.07,4929.58z M5936.14,4926.8c-5.93,1.05-11.88,2.12-17.82,3.18
 					c-6.43,2.78-12.88,5.57-19.32,8.36c5.94-1.38,11.87-2.75,17.8-4.12L5936.14,4926.8z M5958.24,4922.88l-15.96,2.83l-17.18,6.59
@@ -402,7 +415,7 @@
 </g>
 <g id="Capa_2" class="st0">
 	<path class="st4" d="M7581.82,8836.45c0,0-338.25-1034.63-2118.04-2459.29c-282.74-226.33-1670.98-1456.03-2109.59-3223.17
-		l-50.54-222.59l-61.23-289.44l-49.53-356.67l-47.31-567.61c0,0-13-910.41,20.42-1143.78"/>
+		l-50.54-222.59l-61.23-289.44l-49.53-356.67l-47.31-567.61c0,0-13-910.41,20.42-1143.78" />
 	<path class="st4" d="M7673.21,8689.7c0,0-360.29-1082.77-2125.79-2437.52c-287.33-220.48-1697.94-1368.43-2234.64-3272.53
 		L3221,2606.89l-79.15-408.11l-85.05-771.53l-28-962.77"/>
 	<path class="st4" d="M7768.09,8543.22c0,0-350.68-1042.52-2116.18-2397.27c-287.33-220.48-1788.87-1417.82-2365.02-3242.37
@@ -453,7 +466,8 @@
 </g>
 <g id="_x31_">
 	<path class="st5" d="M7582,8844.7c0,0-338.25-1034.63-2118.04-2459.29c-282.74-226.33-1670.98-1456.03-2109.59-3223.17
-		l-50.54-222.59l-61.23-289.44l-49.53-356.67l-47.31-567.61c0,0-13-910.41,20.42-1143.78"/>
+		l-50.54-222.59l-61.23-289.44l-49.53-356.67l-47.31-567.61c0,0-13-910.41,20.42-1143.78" />
+
 </g>
 <g id="_x32_" class="st0">
 	<path class="st4" d="M7674.08,8688.1c0,0-360.29-1082.77-2125.79-2437.52c-287.33-220.48-1697.94-1368.43-2234.64-3272.53

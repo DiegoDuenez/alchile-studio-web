@@ -9,6 +9,12 @@
 </head>
 <body>
 
+
+    <!--===== BACKGROUND START =====-->
+    <?php include 'templates/components/background.html'; ?>
+    <!--===== BACKGROUND END =====-->
+
+
     <!--===== MENU START =====-->
     <?php include 'templates/components/menu.html'; ?>
     <!--===== MENU END =====-->

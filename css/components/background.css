@@ -1,11 +1,47 @@
 
 
 .background{
-    position: fixed;
-    width: 100%;
-    height: 100%;
+    position: absolute;
+    width: 250%;
+    height: 250%;
     z-index: -999;
 }
+
+    @media screen and (min-width: 300px) and (max-width: 1000px) {
+        .background{
+            display: none;
+        }
+    }
+
+.waves{
+    position: relative;
+}
+
+.background img{
+    position: absolute;
+    width: 290rem;
+    top: -50rem;
+    left: -55rem;
+    opacity: 1;
+    /* animation-name: trap_stroke;
+    animation-duration: 0.5s;
+    animation-delay: var(--i);
+    animation-fill-mode: both; */
+}
+
+
+@keyframes trap_stroke {
+    0% {
+        width: 0;
+
+    }
+
+    100% {
+        width: 290rem;
+    }
+      
+}  
+
 
 .chilis{
     position: relative;
@@ -25,6 +61,14 @@
 }
 
 
+/* .path {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 5s linear alternate infinite;
+}
+  
+
+
 @keyframes animate {
     0%{
         transform: translateY(100vh) scale(1) ;
@@ -32,4 +76,5 @@
     100%{
         transform: translateY(-10vh) scale(1) ;
     }
-}
+} */
+

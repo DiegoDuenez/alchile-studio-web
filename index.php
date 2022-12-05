@@ -2,28 +2,45 @@
 <html lang="en">
 <head>
     
+    <!--===== HEADER START =====-->
     <?php include 'templates/header.html'; ?>
+    <!--===== HEADER END =====-->
     
 </head>
 <body>
 
-
+    <!--===== MENU START =====-->
     <?php include 'templates/components/menu.html'; ?>
+    <!--===== MENU END =====-->
 
+    <!--===== NAV START =====-->
     <?php include 'templates/components/nav.html'; ?>
+    <!--=====NAV END =====-->
 
+    <!--===== DOTS START =====-->
     <?php include 'templates/components/dots.html'; ?>
+    <!--===== DOTS END =====-->
 
+    <!--===== INICIO START =====-->
     <?php include 'templates/layouts/inicio.html'; ?>
+    <!--===== INICIO END =====-->
 
+    <!--===== NOSOTROS START =====-->
     <?php include 'templates/layouts/nosotros.html'; ?>
+    <!--===== NOSOTROS END =====-->
 
+    <!--===== PORTAFOLIO START =====-->
     <?php $portafolio = include 'config/portafolio.php'; ?>
     <?php include 'templates/layouts/portafolio.php'; ?>
+    <!--===== PORTAFOLIO END =====-->
 
+    <!--===== VIDEO START =====-->
     <?php include 'templates/layouts/video.html'; ?>
+    <!--===== VIDEO END =====-->
 
+    <!--=====  CONTACTO START =====-->
     <?php include 'templates/layouts/contacto.php'; ?>
+    <!--=====  CONTACTO END =====-->
 
 
     
@@ -35,7 +52,9 @@
 
 <!-- <svg width="100%" height="20%" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs></defs><path id="myID" d=""/></svg> -->
 
+    <!--=====  SCRIPTS START =====-->
     <?php include 'templates/scripts.html'; ?>
+    <!--=====  SCRIPTS END =====-->
     
 </body>
 </html>

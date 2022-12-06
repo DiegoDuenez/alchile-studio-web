@@ -63,6 +63,15 @@ function getProyecto($category){
                 'blackwolf',
                 'aw'
                 
+            ],
+
+            'tomas con dron' => [
+                'apromsa',
+            ],
+
+            'diseño web' => [
+                'apromsa',
+                'blackwolf'
             ]
     
     

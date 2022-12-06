@@ -17,8 +17,6 @@
         <div class="contacto__info-links">
             <a href="https://www.facebook.com/AlChileStudioMx/" target="_blank">Facebook</a>
             <a href="https://www.instagram.com/alchilestudio_mx/?hl=en" target="_blank">Instagram</a>
-            <a href="#" target="_blank">Whatsapp</a>
-
         </div>
 
         <a href="aviso.pdf" class="button button--mc" target="_blank">

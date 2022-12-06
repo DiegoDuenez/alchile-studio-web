@@ -22,11 +22,35 @@
     width: 290rem;
     top: -50rem;
     left: -55rem;
-    opacity: 1;
+    opacity: 0;
     /* animation-name: trap_stroke;
     animation-duration: 0.5s;
     animation-delay: var(--i);
     animation-fill-mode: both; */
+    -webkit-animation: increase 3s;
+    -moz-animation: increase 3s;
+    -o-animation: increase 3s;
+    animation: increase 3s;
+    animation-fill-mode: forwards;
+    animation-delay: var(--i);
+}
+
+
+@keyframes increase {
+
+    /*load to left*/
+    0% {
+        /* width: 0; */
+        transform: scale(-0);
+
+    }
+
+    100% {
+        transform: scale(1);
+
+        opacity: 1;
+
+    }
 }
 
 
@@ -41,6 +65,27 @@
     }
       
 }  
+
+.line{
+    position: absolute;
+    display: none;
+    top: 2rem;
+    left: 5rem;
+    width: 0;
+    background-color: red;
+    height: 3rem;
+    animation: 1s in-out forwards;
+}
+
+@keyframes in-out {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 10rem;
+    }
+  
+  }
 
 
 .chilis{

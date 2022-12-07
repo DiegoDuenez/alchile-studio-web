@@ -52,7 +52,8 @@ function getProyecto($category){
             ],
     
             'mkt' => [
-    
+                'cla',
+                'apromsa'
             ],
     
             'social media' => [
@@ -72,6 +73,11 @@ function getProyecto($category){
             'diseño web' => [
                 'apromsa',
                 'blackwolf'
+            ],
+
+            'ads' => [
+                'blackwolf',
+                'sindicato'
             ]
     
     

@@ -13,9 +13,9 @@ return [
             'imgAlt' => 'CLA',
     
             'descripcion' => '
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia excepturi 
-                architecto non optio quod porro sapiente, atque, reprehenderit, quidem quis soluta at! 
-                Velit voluptatum qui eveniet inventore necessitatibus placeat aliquid?
+                En el Colegio Los Ángeles de Torreón, trabajamos la rama de publicidad a través del manejo
+                de redes sociales, comunicando mediante flyers, lonas, espectaculares y revistas la esencia de
+                esta institución educativa.
             ',
     
             'imgLogo' => 'resources/img/cla-logo.png',
@@ -44,9 +44,9 @@ return [
             'imgAlt' => 'Acuario',
     
             'descripcion' => '
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia excepturi 
-                architecto non optio quod porro sapiente, atque, reprehenderit, quidem quis soluta at! 
-                Velit voluptatum qui eveniet inventore necessitatibus placeat aliquid?
+                Este cliente de gran presencia en el norte de México apoyamos en la imagen de la marca
+                desde toda la publicidad interna así como la publicidad externa de cada sucursal. Realizamos
+                fotografía de producto, eventos, videos animados para spots publicitarios.
             ',
     
             'imgLogo' => 'resources/img/acuario-logo.png',
@@ -75,9 +75,10 @@ return [
             'imgAlt' => 'Sindicato',
     
             'descripcion' => '
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia excepturi 
-                architecto non optio quod porro sapiente, atque, reprehenderit, quidem quis soluta at! 
-                Velit voluptatum qui eveniet inventore necessitatibus placeat aliquid?
+                ¿Qué mejor que comunicar la delicia de la comida que a través de la fotografía y video?
+                Logramos plasmar aromas, detalle e imagen en la mente de los consumidores. Todas estás
+                herramientas de la mano coordinamos el manejo de redes sociales así como campañas
+                publicitarias.
             ',
     
             'imgLogo' => 'resources/img/sindicato-logo.png',
@@ -102,9 +103,8 @@ return [
             'imgAlt' => 'Tutti Frutti',
     
             'descripcion' => '
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia excepturi 
-                architecto non optio quod porro sapiente, atque, reprehenderit, quidem quis soluta at! 
-                Velit voluptatum qui eveniet inventore necessitatibus placeat aliquid?
+                La experiencia de colaborar con marcas internacionales, estudiando la esencia y la línea de
+                diseño para colaborar en el diseño de esta gran franquicia americana.
             ',
     
             'imgLogo' => 'resources/img/tuti-frutti-logo.png',
@@ -127,9 +127,9 @@ return [
             'imgAlt' => 'Apromsa',
     
             'descripcion' => '
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia excepturi 
-                architecto non optio quod porro sapiente, atque, reprehenderit, quidem quis soluta at! 
-                Velit voluptatum qui eveniet inventore necessitatibus placeat aliquid?
+                Tanques de almacenamiento de agua a nivel industrial, una empresa con presencia a nivel
+                internacional, trabajamos material audiovisual, tomas con dron, diseño editorial, redes sociales
+                y publicidad de impacto.
             ',
     
             'imgLogo' => 'resources/img/apromsa-logo.png',
@@ -156,9 +156,9 @@ return [
             'imgAlt' => 'Black Wolf',
     
             'descripcion' => '
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia excepturi 
-                architecto non optio quod porro sapiente, atque, reprehenderit, quidem quis soluta at! 
-                Velit voluptatum qui eveniet inventore necessitatibus placeat aliquid?
+                Trabajamos el branding de esta magnifica tienda en línea, fotografía de publicidad, con un
+                toque único y la creación de la marca, creando campañas con impacto a nivel nacional,
+                trabajamos la publicidad de los diferentes medios sociales.
             ',
     
             'imgLogo' => 'resources/img/black-wolf-logo.png',

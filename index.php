@@ -41,7 +41,7 @@
     <!--===== PORTAFOLIO END =====-->
 
     <!--===== VIDEO START =====-->
-    <?php include 'templates/layouts/video.html'; ?>
+    <?php /*include 'templates/layouts/video.html';*/ ?>
     <!--===== VIDEO END =====-->
 
     <!--=====  CONTACTO START =====-->

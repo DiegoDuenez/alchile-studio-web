@@ -80,7 +80,7 @@
     border: 1px solid var(--amarillo_100);
     width: 20rem;
     /* height: 25rem; */
-    min-height: 40rem;
+    min-height: 30rem;
     height: max-content;
     background-color: var(--negro);
     padding: 1rem;

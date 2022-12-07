@@ -9,9 +9,9 @@
         <li id="diseño grafico" class="portafolio__categories-item">Diseño Gráfico</li>
         <li id="mkt" class="portafolio__categories-item">MKT</li>
         <li id="social media" class="portafolio__categories-item">Social Media</li>
-        <li id="tomas con dron" class="portafolio__categories-item">Tomas con dron</li>
+        <li id="tomas con dron" class="portafolio__categories-item">Dron</li>
         <li id="diseño web" class="portafolio__categories-item">Diseño web</li>
-
+        <li id="ads" class="portafolio__categories-item">ADS</li>
     </ul>
 
 </div>
@@ -45,8 +45,10 @@
                     <li id="diseño grafico" class="portafolio__categories-item">Diseño Gráfico</li>
                     <li id="mkt" class="portafolio__categories-item">MKT</li>
                     <li id="social media" class="portafolio__categories-item">Social Media</li>
-                    <li id="tomas con dron" class="portafolio__categories-item">Tomas con dron</li>
+                    <li id="tomas con dron" class="portafolio__categories-item">Dron</li>
                     <li id="diseño web" class="portafolio__categories-item">Diseño web</li>
+                    <li id="ads" class="portafolio__categories-item">ADS</li>
+
                 </ul>
                 
             </section>

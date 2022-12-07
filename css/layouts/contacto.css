@@ -140,9 +140,9 @@
 }
 
 .contacto__background-image{
-    background-image: url('../../resources/img/bg-contacto.png');
+    background-image: url('../../resources/img/contacto.jpg');
     background-size: cover;
-    background-position: right;
+    background-position:center;
     background-repeat: no-repeat;
     width: 50%;
 }

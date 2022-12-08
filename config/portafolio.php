@@ -45,8 +45,8 @@ return [
     
             'descripcion' => '
                 Este cliente de gran presencia en el norte de México apoyamos en la imagen de la marca
-                desde toda la publicidad interna así como la publicidad externa de cada sucursal. Realizamos
-                fotografía de producto, eventos, videos animados para spots publicitarios.
+                desde toda la publicidad interna así como la publicidad externa. Realizamos
+                fotografía de producto, eventos y videos animados para spots publicitarios.
             ',
     
             'imgLogo' => 'resources/img/acuario-logo.png',
@@ -128,8 +128,8 @@ return [
     
             'descripcion' => '
                 Tanques de almacenamiento de agua a nivel industrial, una empresa con presencia a nivel
-                internacional, trabajamos material audiovisual, tomas con dron, diseño editorial, redes sociales
-                y publicidad de impacto.
+                internacional, trabajamos material audiovisual, diseño editorial, redes sociales,
+                publicidad de impacto y tomas con dron.
             ',
     
             'imgLogo' => 'resources/img/apromsa-logo.png',

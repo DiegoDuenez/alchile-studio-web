@@ -16,7 +16,6 @@
 *   ---------------------------------------------------------------------------------
 */
 @import url('animations/animations.css');
-@import url('animations/animate.css');
 
 
 /*
@@ -26,7 +25,6 @@
 */
 @import url('settings/normalize.css');
 @import url('settings/fonts.css');
-@import url('settings/fa.css');
 @import url('settings/root.css');
 
 

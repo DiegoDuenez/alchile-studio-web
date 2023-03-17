@@ -67,59 +67,6 @@ return [
             
         ],
 
-
-        'Sindicato del Taco' => [
-
-            'img' => 'resources/img/sindicato-imagen.png',
-    
-            'imgAlt' => 'Sindicato',
-    
-            'descripcion' => '
-                ¿Qué mejor que comunicar la delicia de la comida que a través de la fotografía y video?
-                Logramos plasmar aromas, detalle e imagen en la mente de los consumidores. Todas estás
-                herramientas de la mano coordinamos el manejo de redes sociales así como campañas
-                publicitarias.
-            ',
-    
-            'imgLogo' => 'resources/img/sindicato-logo.png',
-    
-            'listaServicios' => [
-                'Social Media',
-                'Fotografía',
-                'Video',
-                'Publicidad Exterior',
-            ],
-    
-            'imgSize' => 'portafolio__proyecto-logo ',
-
-            'id' => 'sindicato'
-            
-        ],
-
-        'Tutti Frutti' => [
-
-            'img' => 'resources/img/tuti-frutti-imagen.png',
-    
-            'imgAlt' => 'Tutti Frutti',
-    
-            'descripcion' => '
-                La experiencia de colaborar con marcas internacionales, estudiando la esencia y la línea de
-                diseño para colaborar en el diseño de esta gran franquicia americana.
-            ',
-    
-            'imgLogo' => 'resources/img/tuti-frutti-logo.png',
-    
-            'listaServicios' => [
-                'Diseño',
-                'Rotulación de Interior',
-            ],
-    
-            'imgSize' => 'portafolio__proyecto-logo portafolio__proyecto-logo--md ',
-
-            'id' => 'tutti'
-            
-        ],
-
         'Apromsa' => [
 
             'img' => 'resources/img/apromsa-imagen.png',
@@ -149,6 +96,8 @@ return [
             
         ],
 
+        
+
         'Black Wolf' => [
 
             'img' => 'resources/img/black-wolf-imagen.png',
@@ -175,6 +124,61 @@ return [
             'id' => 'blackwolf'
             
         ],
+
+        'Tutti Frutti' => [
+
+            'img' => 'resources/img/tuti-frutti-imagen.png',
+    
+            'imgAlt' => 'Tutti Frutti',
+    
+            'descripcion' => '
+                La experiencia de colaborar con marcas internacionales, estudiando la esencia y la línea de
+                diseño para colaborar en el diseño de esta gran franquicia americana.
+            ',
+    
+            'imgLogo' => 'resources/img/tuti-frutti-logo.png',
+    
+            'listaServicios' => [
+                'Diseño',
+                'Rotulación de Interior',
+            ],
+    
+            'imgSize' => 'portafolio__proyecto-logo portafolio__proyecto-logo--md ',
+
+            'id' => 'tutti'
+            
+        ],
+
+        'Sindicato del Taco' => [
+
+            'img' => 'resources/img/sindicato-imagen.png',
+    
+            'imgAlt' => 'Sindicato',
+    
+            'descripcion' => '
+                ¿Qué mejor que comunicar la delicia de la comida que a través de la fotografía y video?
+                Logramos plasmar aromas, detalle e imagen en la mente de los consumidores. Todas estás
+                herramientas de la mano coordinamos el manejo de redes sociales así como campañas
+                publicitarias.
+            ',
+    
+            'imgLogo' => 'resources/img/sindicato-logo.png',
+    
+            'listaServicios' => [
+                'Social Media',
+                'Fotografía',
+                'Video',
+                'Publicidad Exterior',
+            ],
+    
+            'imgSize' => 'portafolio__proyecto-logo ',
+
+            'id' => 'sindicato'
+            
+        ],
+        
+
+        
 
         // 'AW Software' => [
 
